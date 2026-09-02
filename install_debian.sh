@@ -15,20 +15,24 @@ cd "$THEME_DIR"
 # ============================================
 sudo apt-get install -y gtk2-engines-murrine gtk2-engines-pixbuf unzip sassc git
 
-# ============================================
-# Install Qogir theme
-# ============================================
 curl -Lo "$THEME_DIR/xfce-theme-assets.zip" https://github.com/fiyosa/xfce-theme/releases/download/1.0/xfce-theme-assets.zip
 unzip -q "$THEME_DIR/xfce-theme-assets.zip" -d "$THEME_DIR"
 
-git clone https://github.com/vinceliuice/Qogir-theme.git "$THEME_DIR/Qogir-theme"
-cd "$THEME_DIR/Qogir-theme" && ./install.sh --tweaks round
+curl -Lo "$THEME_DIR/Qogir-theme-master.zip" https://github.com/fiyosa/xfce-theme/releases/download/1.0/Qogir-theme-master.zip
+unzip -q "$THEME_DIR/Qogir-theme-master.zip" -d "$THEME_DIR"
+
+curl -Lo "$THEME_DIR/Qogir-icon-theme-master.zip" https://github.com/fiyosa/xfce-theme/releases/download/1.0/Qogir-icon-theme-master.zip
+unzip -q "$THEME_DIR/Qogir-icon-theme-master.zip" -d "$THEME_DIR"
+
+# ============================================
+# Install Qogir theme
+# ============================================
+cd "$THEME_DIR/Qogir-theme-master" && ./install.sh --tweaks round
 
 # ============================================
 # Install Qogir icon theme
 # ============================================
-git clone https://github.com/vinceliuice/Qogir-icon-theme.git "$THEME_DIR/Qogir-icon-theme"
-cd "$THEME_DIR/Qogir-icon-theme" && ./install.sh -t default
+cd "$THEME_DIR/Qogir-icon-theme-master" && ./install.sh -t default
 
 mkdir -p ~/.icons
 ln -s ~/.local/share/icons/Qogir-Dark ~/.local/share/icons/Qogir-Light ~/.icons
