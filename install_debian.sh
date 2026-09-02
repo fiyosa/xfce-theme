@@ -2,7 +2,7 @@
 set -e
 
 THEME_DIR="$HOME/TEMP_THEME"
-EXTRACT_DIR="$THEME_DIR/xfce-theme"
+EXTRACT_DIR="$THEME_DIR/xfce-theme-assets"
 
 # ============================================
 # Prepare folder
