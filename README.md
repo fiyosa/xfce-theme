@@ -12,11 +12,12 @@ curl -fsSL https://raw.githubusercontent.com/fiyosa/xfce-theme/master/install_de
 
 # Screenshots
 
-![Apply Theme and Icon](img/img1.png)
-![Set Wallpaper](img/img2.png)
-![Import Panel Profile](img/img3.png)
-![Set Start Menu Icon](img/img4.png)
-![Setup Ulauncher](img/img5.png)
+![Panel Desktop](img/img1.png)
+![Start Menu Icon](img/img2.png)
+![Setup Ulauncher](img/img3.png)
+![File Manager](img/img4.png)
+![Show Fastfetch](img/img5.png)
+![Show Btop](img/img6.png)
 
 # Manual GUI Setup
 
