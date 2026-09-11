@@ -10,15 +10,6 @@ For Debian
 curl -fsSL https://raw.githubusercontent.com/fiyosa/xfce-theme/master/install_debian.sh | bash
 ```
 
-# Screenshots
-
-![Panel Desktop](img/img1.png)
-![Start Menu Icon](img/img2.png)
-![Setup Ulauncher](img/img3.png)
-![File Manager](img/img4.png)
-![Show Fastfetch](img/img5.png)
-![Show Btop](img/img6.png)
-
 # Manual GUI Setup
 
 ## Apply Theme and Icon
@@ -56,3 +47,12 @@ curl -fsSL https://raw.githubusercontent.com/fiyosa/xfce-theme/master/install_de
 ```sh
 rm -rf ~/TEMP_THEME /tmp/ulauncher_5.16.0_all.deb
 ```
+
+# Screenshots
+
+![Panel Desktop](img/img1.png)
+![Start Menu Icon](img/img2.png)
+![Setup Ulauncher](img/img3.png)
+![File Manager](img/img4.png)
+![Show Fastfetch](img/img5.png)
+![Show Btop](img/img6.png)
